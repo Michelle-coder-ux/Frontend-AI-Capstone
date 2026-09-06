@@ -14,3 +14,9 @@ fixing formatting, trimming whitespace, standardizing values.
 - Keep functions small, single-purpose, and readable
 - Use clear, descriptive variable and function names
 - Comment any non-obvious cleaning logic (e.g. why a specific rule exists)
+
+
+## Lessons from Prompting Comparison (Round 1 vs Round 2)
+- When building a form, always make sure every invalid or missing input produces a visible reaction (like an error message) — silence isn't acceptable, since the user needs to know why something isn't working.
+- Every page or screen should include clear guidance for first-time users on what to do — not just error handling for when something goes wrong.
+- Give immediate reaction or pop-up messages when a user makes an error — don't let error feedback wait, since delays waste the user's time and effort.
