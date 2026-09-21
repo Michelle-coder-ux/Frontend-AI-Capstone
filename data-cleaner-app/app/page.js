@@ -11,7 +11,7 @@ export default function Home() {
       </p>
       <a
         href="/upload"
-        className="rounded-full bg-black text-white px-6 py-3 text-sm sm:text-base font-medium hover:bg-gray-800 transition-colors"
+        className="rounded-full bg-primary text-white px-6 py-3 text-sm sm:text-base font-medium hover:bg-green-800 transition-colors"
       >
         Get Started
       </a>
