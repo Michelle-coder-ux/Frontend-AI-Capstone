@@ -57,8 +57,21 @@ which is the gap described above.
 
 ## Conclusion
 
-Writing a precise, detailed prompt took more upfront effort, but it
-resulted in a version that was more correct, more accessible, and easier
-to trust — because I could verify its behavior against automated tests
-and my own original instructions, rather than manually hunting for bugs
-after the fact.
+Writing a precise, detailed prompt took more effort, but it
+resulted in a version that was more correct, more accessible, and easier to trust, because I could verify its behavior against automated tests and my own original instructions, rather than manually hunting for bugs after the fact.
+
+## Turning My App into a Next.js Project + Putting It Online
+
+Today I rebuilt my project using Next.js. I used Next.js to organize a website into separate pages automatically, each folder I create inside the "app" folder becomes a new page on my website, like /upload or /review.
+
+I kept my old, simpler version of the project (plain HTML/CSS/JS) safe and untouched on its own branch. My new Next.js version lives in a subfolder called "data-cleaner-app," so nothing from before gets mixed up or lost.
+
+I built simple placeholder pages for all 5 screens my project will eventually need: Home, Upload, Review, Export, and Health Check. I also added a navigation menu that shows up on every page automatically, so I can click between them instead of typing web addresses by hand.
+
+The Health Check page proves that my app can successfully fetch (reach out and grab) data from another website. This matters because later, my app's real AI feature will need to do something similar, that is to send data somewhere and get a response back.
+
+I checked that my website still looks good on both a small phone-sized screen (375px wide) and a bigger laptop-sized screen (1280px wide), and it did.
+
+Then, I connected my project to a hosting service of my choice, Vercel, I transferred my code from GitHub to it and it automatically turned my code into a real, live website that anyone can visit with a link, without needing to install anything themselves.
+
+**My live website link:** https://frontend-ai-capstone-eosin.vercel.app
